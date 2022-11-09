@@ -11,7 +11,7 @@
 - Add recommended workaround node_modules > express-jwt > lib > index.js
 - cmd: “npm pack”
 - Upload to NXRM hosted-remediated repo
-- cmd: “ npm set registry http://nxrm-aplattel.ngrok.io/  ”
+- cmd: “ npm set registry http:// NXRM REPO URL ”
 - Delete node_modules
 - Delete the package-lock.json (if we don't do this it will compare the hash from the old component to the new one and see a discrepancy, giving us a “EINTEGRITY” error)
 - cmd: “npm cache clean --force”
